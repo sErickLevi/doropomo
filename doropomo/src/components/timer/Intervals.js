@@ -6,9 +6,9 @@ import Stopwatch from "./Stopwatch";
 export default ({
   totalCycles = 1,
   cycleTime = 4,
-  study = 15,
-  shortBreak = 3,
-  longBreak = 9,
+  study = 1500,
+  shortBreak = 300,
+  longBreak = 900,
   isRunning,
   setIsRunning,
   setNextCurrent,
